@@ -13,3 +13,10 @@ h1 {
 .letter {
     transition: color 1000ms;
 }
+
+.myImage {
+    width: 300px; /* Adjust this value as needed */
+    /* height: 200px; If you want to set a specific height, uncomment this line and adjust the value */
+    display: block; /* This ensures the image is a block-level element and takes the full width specified */
+    margin: 0 auto; /* This centers the image horizontally if it's smaller than its container */
+}
